@@ -35,8 +35,8 @@ public class Reverse
         while(userinput != 0)
         {
         reverse = reverse * 10;
-		    reverse = reverse + userinput % 10;
-		    userinput = userinput / 10;
+		reverse = reverse + userinput % 10;
+		userinput = userinput / 10;
         }
         
         return reverse;
